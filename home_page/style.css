@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-05-07 22:44:09
+ * @version $Id$
+ */
+*{margin: 0;padding: 0}
+body{
+	font:16px/1.8"Microsoft Yahei",verdana;
+}
+.section{
+	position: relative;
+	background-color: #fff;
+	overflow: hidden;
+	text-align: center;
+}
+.section1{
+	background:url("img/hero_sunset_large_2x.jpg")no-repeat center;
+background-size:cover;}
+
+.section1 h1{
+	margin-top:5%;
+	color:#fff;
+	font-weight: normal;
+	font-size: 50px;
+	font-weight: normal;
+	opacity: 0.8;
+	filter:alpha(opacity:80)
+}
+.section1 p{
+	margin: 800px auto 0;
+	color:#fff;
+	font-size: 18px;
+	width: 60%;
+	opacity:0.6;
+	filter:alpha(opacity:60);
+	
+}
+.section1 a{
+	display: block;
+	margin: 5% auto 0;
+	color:#ff9000;
+	opacity:0.9;
+	filter:alpha(opacity:90);
+
+}
+.section2{
+	background:#f2f2f2 url("img/white2.jpg")no-repeat bottom;
+	background-size: 100%;
+}
+.section2 .xian
+{
+  height:3px;
+  //width:800px;
+  width:60px;
+  margin:100px auto 0;
+  background-color:#ccc;
+}
+.section2 p
+{    //margin-top: 80px;
+	margin-top:800px;
+	font-size: 20px;
+}
+.section2 h1{
+	margin-top:20px;
+	color:#333;
+	font-weight: normal;
+	font-size:50px;
+}
+.section2 a{
+	display:block;
+	margin:20px auto 0;
+	color:#08c;
+	font-size: 18px;
+}
+.section3{
+	background:url(img/white1.jpg)no-repeat bottom;
+	}
+.section3 h1{
+	margin:60px auto 0;
+	color:#333;
+	font-weight: normal;
+	font-size: 40px;
+	width:60%;
+	margin-left:-1500px;
+}
+.section3 .xian3
+{
+	height:3px;
+  //width:800px;
+  width:40px;
+  margin:20px auto 0;
+  background-color:blue;
+}
+.section3 p{
+	margin:20px auto 0;
+	color:#333;
+	font-size: 18px;
+	width:60%;
+	margin-left: 1500px;
+}
+.section3 h5
+{
+	color:red;
+
+}
+.section3 .skill
+{
+	margin-top:-600px;
+
+}
+.section3 a{
+	margin-left: 80px;
+	}
+.section4
+{
+	background:url(img/white3.jpg)no-repeat bottom;
+	background-size: 100%;
+}
+.section4 h1
+{
+	margin-top: -2000px;
+
+}
+.section4 .p2
+{
+	margin:20px auto 0;
+	color:#333;
+	font-size: 18px;
+	width:60%;
+	margin-left: 1500px;
+}
+.section4 .p1
+{
+	margin:20px auto 0;
+	color:#333;
+	font-size: 18px;
+	width:60%;
+	margin-left: -1500px;
+}
+.section4 .xian4
+{
+  height:3px;
+  //width:800px;
+  width:40px;
+  margin:20px auto 0;
+  background-color:green;
+}
+.section5{
+	background:#fff;
+}
+.section5 h1{
+	margin: 80px auto 0;
+	font-weight: normal;
+	color:#333;
+    font-size: 40px;
+}
+.section5 .xian5
+{
+	height:3px;
+  //width:800px;
+  width:40px;
+  margin:20px auto 0;
+  background-color:orange;
+}
+.section5 .row
+{
+	margin-left:300px;
+
+}
+.section5 .column{
+	float: left;
+	display:inline-block;
+    width:31%;
+    margin:10px;
+    padding-bottom: 30px;
+    margin-left: 40px;
+
+}
+.section5 .column a img{
+	height:200px;
+	width:200px;
+	margin-top: 30px;
+
+}
+
+
+.section5 .column h4 .left 
+{
+	margin-left: -2500px;
+    
+}
+.section5 .column h4 .right
+{
+	margin-right: -2500px;
+
+} 
+.section5 .xian6
+{
+	width:650px;
+	height:1px;
+	background:#e4393c;
+	margin:330px auto 0;
+}
+.section5 .triangle1,.section5 .triangle2
+{
+	margin-top: 10px;
+}
+.section5 .Contact
+{   margin-top: 40px;
+	width:100%;
+	height:180px;
+	background:#d3d3d3;
+}
+.section5 .Contact img
+{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.section5 .Contact h6
+{
+	
+	margin-top: 10px;
+}
+.section5 .Contact h6 a
+{
+	text-decoration: none;
+	color:#666;
+}
+.section5 .Contact h6 a:hover
+{
+	color:#e4393c;
+	
+}
