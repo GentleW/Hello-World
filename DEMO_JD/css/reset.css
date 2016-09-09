@@ -1,0 +1,30 @@
+﻿@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-05-11 12:43:46
+ * @version $Id$
+ */
+body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,input,select,textarea,form{margin: 0; padding: 0;}
+body{font:14px/1.5 "宋体";}
+img{border:none;}
+ul,ol{list-style:none;}
+input,select,textarea{outline:none;border:none;background:none;}//兼容IE6 加background：none
+textarea{resize:none;}
+a{text-decoration:none;color:#656565;}
+
+/*清浮动*/
+.clearfix:after{content:"";*display:block;*clear:both;}
+.clearfix{zoom:1;}
+.fl{float: left;}
+.fr{float:right;}
+/*IE6 hack*/
+	*html,*html body
+	{
+		background-image:url(about:blank);
+		background-attachment:fixed;
+	}
+      *html #menu{
+      	position: absolute;
+      	top:expression((e=document.documentElement.scrollTop)?e:document.body.scrollTop)+100+"px";
+      }
